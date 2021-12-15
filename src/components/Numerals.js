@@ -26,7 +26,7 @@ function Numerals(props) {
             />
             <button className='numerals-button' onClick={inWords(input)}>Submit</button>
             </div>
-            <div >
+            <div>
                 <textarea type='' value={inWords(input)} className='convert'/>
             </div>
         </form>

@@ -29,11 +29,6 @@ h1 {
     font-size: 24px;
 }
 
-.complete {
-    text-decoration: line-through;
-    opacity: 0.4;
-}
-
 .numerals-form {
     margin-bottom: 32px;
 }
@@ -54,6 +49,7 @@ h1 {
 
 .numerals-button {
     padding: 16px;
+    margin-bottom: 30px;
     border: none;
     border-radius: 0 4px 4px 0;
     cursor: pointer;
@@ -64,11 +60,14 @@ h1 {
 }
 
 .convert {
-    padding: 14px 14px 14px 16px;
+    padding: 50px 14px 14px 16px;
+    margin-top: 50px;
     border-radius: 2px 2px 2px 2px;
     border: 1px solid rgba(171, 145, 246, 0.24);
     outline: none;
     width: 450px;
+    height: 150px;
+    text-align: center;
 
     background: linear-gradient(
             90deg,
@@ -81,10 +80,7 @@ h1 {
 .convert::placeholder {
     border: 2px solid #5d0cff;
 }
-.todo-button.edit {
-    background: linear-gradient(90deg, rgba(20, 159, 255, 1) 0%, rgba(17, 122, 255, 1) 100%);
-    padding: 16px 22px;
-}
+
 
 .numerals-container {
     display: flex;
